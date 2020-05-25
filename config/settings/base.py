@@ -78,6 +78,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "drf_tutorial.users.apps.UsersConfig",
     "drf_tutorial.quickstart.apps.QuickstartConfig",
+    "drf_tutorial.snippets.apps.SnippetsConfig",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
