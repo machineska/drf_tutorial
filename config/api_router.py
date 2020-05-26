@@ -4,6 +4,7 @@ from rest_framework.routers import DefaultRouter, SimpleRouter
 from drf_tutorial.users.api.views import UserViewSet
 from drf_tutorial.quickstart.views import UserQViewSet
 from drf_tutorial.quickstart.views import GroupQViewSet
+# from drf_tutorial.snippets.views import snipet_list, snipet_detail
 
 if settings.DEBUG:
     router = DefaultRouter()
